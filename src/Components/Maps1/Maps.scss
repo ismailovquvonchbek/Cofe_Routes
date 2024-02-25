@@ -1,0 +1,42 @@
+.maps {
+    margin-top: 168px;
+
+    .container {
+        display: flex;
+        background: #2C343E;
+        height: 474px;
+        border-radius: 10px;
+    }
+
+    &__info {
+        padding-top: 88px;
+        margin-left: 85px;
+        text-align: start;
+        width: 540px !important;
+        margin-left: 80px !important;
+    }
+
+    &__heading {
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #FEFCF7;
+    }
+
+    &__text {
+        font-family: "Barlow";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FEFCF7;
+    }
+
+    &__img {
+        margin-left: 145px !important;
+        margin-top: -76px;
+        height: 474px !important;
+        width: 445px !important;
+        border-radius: 10px;
+    }
+}

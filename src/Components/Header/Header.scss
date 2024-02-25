@@ -1,0 +1,49 @@
+.header {
+    margin-top: 10px;
+}
+
+.container {
+    width: 1320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    gap: 33px;
+}
+
+.nav__link {
+    font-family: "Barlow" serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #83888F;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #000;
+    }
+
+    &.active {
+        color: red;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 6px;
+    }
+}
+
+.header__select {
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 10;
+    background: #2b8903;
+}
