@@ -18,7 +18,7 @@ function Maps() {
 
                     <ul className="maps__list">
                         <li className="maps__item">
-                            <img className="maps__img" src={MapsImg} alt="img" />
+                            <img className="maps__imglar" src={MapsImg} alt="img" />
                             <h4 className="maps__head">
                                 Best quality
                             </h4>
@@ -28,7 +28,7 @@ function Maps() {
                         </li>
 
                         <li className="maps__item">
-                            <img className="maps__img" src={MapsImg} alt="img" />
+                            <img className="maps__imglar" src={MapsImg} alt="img" />
                             <h4 className="maps__head">
                                 Exclusive benefits
                             </h4>
@@ -38,7 +38,7 @@ function Maps() {
                         </li>
 
                         <li className="maps__item">
-                            <img className="maps__img" src={MapsImg} alt="img" />
+                            <img className="maps__imglar" src={MapsImg} alt="img" />
                             <h4 className="maps__head">
                                 Free shipping
                             </h4>

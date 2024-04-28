@@ -6,7 +6,7 @@ function Our() {
         <>
             <section className="our">
                 <div className="container">
-                    {/* <img className="our__img" src={OurImages} alt="Img" width="445" height="520" /> */}
+                    <img className="our__imgs" src={OurImages} alt="Img" width="445" height="520" />
                     <div className="our__info">
                         <h2 className="our__heading">Our commitment</h2>
                         <p className="our__text">
